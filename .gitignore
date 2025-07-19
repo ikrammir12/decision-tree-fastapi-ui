@@ -1,2 +1,21 @@
-#adding the virtual env to my .gitignore file 
-myenv
+# .gitignore  (top-level)
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+fast/
+.venv/
+venv/
+env/
+
+# Jupyter / Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# OS / editor
+.vscode/
+.idea/
+.DS_Store
